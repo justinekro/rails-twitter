@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.1.4'
+gem 'twitter'
 gem 'bootstrap-sass', '3.3.7'
 gem 'bcrypt',         '3.1.11'
 gem 'puma',         '3.9.1'
@@ -14,6 +15,7 @@ gem 'jbuilder',     '2.7.0'
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   gem 'byebug',  '9.0.6', platform: :mri
+  gem 'dotenv-rails'
 end
 
 group :development do
