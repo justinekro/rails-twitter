@@ -1,6 +1,6 @@
 class SendTweet
-	def initialize(content)
-		@tweet = content
+	def initialize(tweet)
+		@tweet = tweet
 	end
 
 	def perform
